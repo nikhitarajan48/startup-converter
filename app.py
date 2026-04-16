@@ -9,8 +9,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ── Groq API Key ───────────────────────────────────────────────────────
-GROQ_API_KEY = "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"  # ← Paste your gsk_... key here
 
 # ── Custom CSS ─────────────────────────────────────────────────────────
 st.markdown("""
