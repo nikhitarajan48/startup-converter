@@ -9,6 +9,12 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
 # ── Custom CSS ─────────────────────────────────────────────────────────
 st.markdown("""
